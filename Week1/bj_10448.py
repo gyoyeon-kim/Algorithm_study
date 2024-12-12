@@ -2,7 +2,7 @@ T = int(input())
 
 tri = [i * (i+1) // 2 for i in range(1,45)] # 45번째 삼각수 == 1035
 
-answer = [0] * 1001
+answer = [0] * 1001 # 입력 범위가 1000개까지이기 때문
 
 for i in tri:
     for j in tri:

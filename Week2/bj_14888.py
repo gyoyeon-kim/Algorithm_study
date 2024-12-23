@@ -1,3 +1,5 @@
+# 연산자 끼워넣기
+
 N = int(input())
 
 lst = list(map(int, input().split()))
